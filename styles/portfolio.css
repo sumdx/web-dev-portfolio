@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* shared style */
+section{
+    margin-top: 130px;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -27,6 +30,9 @@
 
 .secondary-bg{
     background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
 }
 
 /* Nav Style  */
@@ -115,4 +121,55 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+/* Skills Style */
+.skills{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    
+}
+
+/* Resume styles */
+
+.resume-container{
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+}
+.resume-column-title{
+    font-size: 30px;
+}
+.experience-title{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+    color: #474747;
+}
+.experience-sub-title{
+    margin: 0px;
+    margin-top: 10;
+    font-size: 20px;
+    color: #757575;
+}
+.experience-description{
+
+    font-size: 16px;
+    color: #757575;
+}
+.experience{
+    margin-top: 30px;
+}
+
+.btn-resume{
+    margin-top: 20px;
 }
